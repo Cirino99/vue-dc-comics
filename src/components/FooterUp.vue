@@ -71,6 +71,8 @@ export default {
 <style scoped lang="scss">
 section {
     background-image: url('../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 360px;
     div {
         height: 100%;
