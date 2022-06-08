@@ -1,12 +1,12 @@
 <template>
-  <footer>
-      
-  </footer>
+    <footer>
+        
+    </footer>
 </template>
 
 <script>
 export default {
-  name: 'FooterVue'
+    name: 'FooterVue'
 }
 </script>
 

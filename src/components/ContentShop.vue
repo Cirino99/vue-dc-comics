@@ -1,12 +1,12 @@
 <template>
-  <section>
-    
-  </section>
+    <section>
+        
+    </section>
 </template>
 
 <script>
 export default {
-  name: 'ContentShopVue'
+    name: 'ContentShopVue'
 }
 </script>
 
