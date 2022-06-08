@@ -14,7 +14,7 @@ export default {
 
 <style scoped lang="scss">
 section {
-    background-color: black;
+    background-color: #1c1c1c;
     padding: 50px 0;
 
     div {

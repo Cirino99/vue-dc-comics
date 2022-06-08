@@ -50,12 +50,12 @@ section {
         width: 70%;
         margin: 0 auto;
         display: flex;
-        padding: 0 30px;
+        padding: 0 25px;
 
         div {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
 
             img {
                 max-width: 50px;
@@ -65,6 +65,8 @@ section {
 
             span {
                 color: white;
+                font-size: 15px;
+                font-weight: 400;
             }
         }
     }
