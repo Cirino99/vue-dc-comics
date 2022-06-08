@@ -79,7 +79,7 @@ export default {
 
 <style scoped lang="scss">
 header {
-    height: 120px;
+    height: 140px;
     display: flex;
     align-items: center;
     nav {
@@ -111,7 +111,7 @@ header {
                         position: absolute;
                         height: 5px;
                         width: 100%;
-                        bottom: -51px;
+                        bottom: -61px;
                         left: 0;
                         background-color: #0282f9;
                     }
