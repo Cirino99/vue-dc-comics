@@ -50,6 +50,7 @@ section {
         width: 70%;
         margin: 0 auto;
         display: flex;
+        padding: 0 30px;
 
         div {
             display: flex;

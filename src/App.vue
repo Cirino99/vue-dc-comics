@@ -1,8 +1,10 @@
 <template>
     <div id="app">
         <Header/>
-        <Content/>
-        <ContentShop/>
+        <main>
+            <Content/>
+            <ContentShop/>
+        </main>
         <Footer/>
     </div>
 </template>

@@ -13,14 +13,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    section {
-        background-color: black;
-        padding: 50px 0;
+section {
+    background-color: black;
+    padding: 50px 0;
 
-        div {
-            width: 70%;
-            margin: 0 auto;
-            color: white;
-        }
+    div {
+        width: 70%;
+        margin: 0 auto;
+        color: white;
     }
+}
 </style>
