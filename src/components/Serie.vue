@@ -9,7 +9,7 @@
 export default {
     name: 'SerieVue',
     props : {
-    serie: Object
+        serie: Object
   }
 }
 </script>
