@@ -42,8 +42,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/style/vars";
 section {
-    background-color: #0282f9;
+    background-color: $primary;
     padding: 40px 0;
 
     div {

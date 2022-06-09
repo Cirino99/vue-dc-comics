@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/style/vars";
 section {
     background-color: #303030;
 
@@ -42,7 +43,7 @@ section {
             a {
                 display: block;
                 padding: 12px;
-                border: 2px solid #0282f9;
+                border: 2px solid $primary;
                 color: white;
                 font-weight: 600;
                 text-decoration: none;
@@ -52,7 +53,7 @@ section {
                 width: 430px;
 
                 span {
-                    color: #0282f9;
+                    color: $primary;
                     font-weight: 600;
                     font-size: 18px;
                 }

@@ -78,6 +78,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/style/vars";
 header {
     height: 120px;
     display: flex;
@@ -104,7 +105,7 @@ header {
                     font-weight: 600;
 
                     &.active {
-                        color: #0282f9;
+                        color: $primary;
                     }
 
                     div {
@@ -113,7 +114,7 @@ header {
                         width: 100%;
                         bottom: -51px;
                         left: 0;
-                        background-color: #0282f9;
+                        background-color: $primary;
                     }
                 }
             }
