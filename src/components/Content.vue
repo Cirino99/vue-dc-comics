@@ -2,7 +2,13 @@
     <section>
         <Jumbotron />
         <div id="series">
-            <Serie v-for="(serie,index) in series" :key="index" :serie="serie" />
+            <div id="current-series">CURREN SERIES</div>
+            <div id="cards-series">
+                <Serie v-for="(serie,index) in series" :key="index" :serie="serie" />
+            </div>
+            <div id="load-more">
+                <a href="#">LOAD MORE</a>
+            </div>
         </div>
     </section>
 </template>
@@ -95,6 +101,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/style/vars";
 section {
     background-color: #1c1c1c;
 
@@ -102,8 +109,44 @@ section {
         width: 70%;
         margin: 0 auto;
         color: white;
-        display: flex;
-        flex-wrap: wrap;
+
+        #current-series {
+            transform: translate(0,-50%);
+            width: 250px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            font-weight: 600;
+            background-color: $primary;
+        }
+
+        #cards-series {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: -30px;
+        }
+
+        #load-more {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 35px;
+                width: 180px;
+                background-color: $primary;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
     }
 }
 </style>

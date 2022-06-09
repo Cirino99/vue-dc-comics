@@ -104,6 +104,10 @@ header {
                     position: relative;
                     font-weight: 600;
 
+                    &:hover {
+                        color: $primary;
+                    }
+
                     &.active {
                         color: $primary;
                     }

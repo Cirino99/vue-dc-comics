@@ -17,7 +17,7 @@ export default {
 <style scoped lang="scss">
 .card-serie {
     width: calc(100% / 6);
-    padding: 10px;
+    padding: 12px;
     margin-top: 30px;
 
     img {
@@ -25,6 +25,7 @@ export default {
         max-height: 200px;
         object-fit: cover;
         object-position: top;
+        margin-bottom: 10px;
     }
 }
 </style>
